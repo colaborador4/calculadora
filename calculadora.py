@@ -9,7 +9,10 @@ def multiplica(a, b):
 
 def divide(a, b):
 	# Testar se b é diferente de zero
-	print ("Divisão = ", a/b)
+	if(b==0):
+		print("não é possível dividir por zero")
+	else:
+		print ("Divisão = ", a/b)
 
 
 #Programa principal
